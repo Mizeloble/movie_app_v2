@@ -18,7 +18,9 @@ function NavBar() {
   return (
     <nav className="menu" style={{ position: 'fixed', zIndex: 5, width: '100%' }}>
       <div className="menu__logo">
-        <a href="/">Logo</a>
+      <img width = "40px" src={"https://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/512/MetroUI-Apps-Windows-MovieMaker-icon.png"}/>
+      <a href="/">MOVIE</a>
+  
       </div>
       <div className="menu__container">
         <div className="menu_left">
